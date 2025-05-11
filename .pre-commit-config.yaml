@@ -1,0 +1,31 @@
+default_install_hook_types: [ commit-msg, pre-commit, prepare-commit-msg ]
+default_stages: [ pre-commit ]
+repos:
+-   repo: https://github.com/ShellMagick/shellmagick-commit-hooks
+    rev: v24.07
+    hooks:
+    -   id: no-boms
+    -   id: no-todos
+        exclude: .*\.svg
+    -   id: lint-commit-message
+        stages: [ commit-msg ]
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: check-added-large-files
+        args: [ --maxkb=128 ]
+        exclude: overrides/\.icons/assets/favicon\.svg|docs/assets/.*
+    -   id: check-case-conflict
+    -   id: check-json
+    -   id: check-illegal-windows-names
+    -   id: check-merge-conflict
+        args: [ --assume-in-merge ]
+    -   id: check-symlinks
+    -   id: check-vcs-permalinks
+    -   id: check-xml
+    -   id: check-yaml
+    -   id: double-quote-string-fixer
+    -   id: end-of-file-fixer
+    -   id: forbid-submodules
+    -   id: mixed-line-ending
+    -   id: trailing-whitespace

@@ -1,0 +1,20 @@
+name: Publish site
+on:
+  push:
+    branches:
+      site
+
+jobs:
+  publish:
+    name: Build & deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 'site'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Deploy site
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_DOMAIN: saraven.net

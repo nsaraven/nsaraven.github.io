@@ -1,0 +1,64 @@
+site_name: N. Saraven
+site_url: https://saraven.net
+site_description: Website of N. Saraven
+
+nav:
+  - Novels: index.md
+  - About & Contact: about.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/favicon-196x196.png
+  features:
+    - toc.follow
+    - toc.integrate
+  font:
+    code: JetBrains Mono
+    text: Calibri
+  icon:
+    admonition:
+      info: material/shopping-outline
+    annotation: material/information-slab-circle-outline
+    logo: assets/favicon
+  language: en
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to auto-mode (follow system preferences)
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+plugins:
+  - privacy
+
+extra_css:
+  - stylesheets/overrides.css
