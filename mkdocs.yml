@@ -60,5 +60,10 @@ markdown_extensions:
 plugins:
   - privacy
 
+extra:
+  social:
+    - icon: assets/favicon
+      link: https://saraven.net
+
 extra_css:
   - stylesheets/overrides.css
