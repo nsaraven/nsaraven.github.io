@@ -61,9 +61,8 @@ plugins:
   - privacy
 
 extra:
-  social:
-    - icon: assets/favicon
-      link: https://saraven.net
+  analytics:
+    provider: simpleanalytics
 
 extra_css:
   - stylesheets/overrides.css
