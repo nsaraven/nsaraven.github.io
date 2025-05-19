@@ -28,7 +28,7 @@ The site is created with Material for MkDocs[^3] with the privacy plugin enabled
 </div>
 1. This should really respect your privacy with some caveats, see [the documentation of the plugin](https://squidfunk.github.io/mkdocs-material/plugins/privacy/).
 
-GDPR-compliant no-cookie site analytics with SimpleAnalytics[^4].
+GDPR-compliant no-cookie site analytics with SimpleAnalytics[^4]. Please consider adding this site to your exception list in your ad blockers. The site does not serve ads, but ad blockers mostly block site view reporting via SimpleAnalytics's technology.
 
 [^1]: [https://saraven.net](https://saraven.net)
 [^2]: [https://pages.github.com/](https://pages.github.com/)
