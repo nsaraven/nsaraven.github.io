@@ -1,0 +1,23 @@
+.md-typeset figure img {
+    display: inline;
+}
+
+body {
+    /*background-image: linear-gradient(
+            to left, rgba(0, 0, 0, 0), var(--md-code-bg-color) 17%
+    ), url("../../../../assets/Galaxy_background.jpg");*/
+    background-image: radial-gradient(
+        /*to left,*/ var(--md-code-bg-color) 73%, rgba(0, 0, 0, 0)
+    ), url("../../../../assets/Galaxy_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+}
+
+.md-typeset .note {
+    font-size: .8rem;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
