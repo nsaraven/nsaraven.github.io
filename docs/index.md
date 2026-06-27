@@ -53,7 +53,7 @@ icon: fontawesome/solid/book
 
     ![Disconnected — Vol. II](../../../../assets/covers/d-front-cover-faded-inprogress.png){ width="37%", style="max-width: 296px;", align=left }
 
-    Idea → Concept → Writing → First draft → Editing & Feedback loop {++→ Iterated draft →++} Typesetting & Layout → Proofreading → Publishing → Available
+    Idea → Concept → Writing → First draft → Editing & Feedback loop → Iterated draft {++→ Typesetting & Layout →++} Proofreading → Publishing → Available
 
 ### Volume III
 
@@ -61,7 +61,7 @@ icon: fontawesome/solid/book
 
     ![Disconnected — Vol. III](../../../../assets/covers/d-front-cover-faded-inprogress.png){ width="37%", style="max-width: 296px;", align=right }
 
-    Idea → Concept → Writing → First draft {++→ Editing & Feedback loop →++} Iterated draft → Typesetting & Layout → Proofreading → Publishing → Available
+    Idea → Concept → Writing → First draft → Editing & Feedback loop {++→ Iterated draft →++} Typesetting & Layout → Proofreading → Publishing → Available
 
 ### Volume IV
 
@@ -69,7 +69,7 @@ icon: fontawesome/solid/book
 
     ![Disconnected — Vol. IV](../../../../assets/covers/d-front-cover-faded-inprogress.png){ width="37%", style="max-width: 296px;", align=left }
 
-    Idea → Concept → Writing {++→ First draft →++} Editing & Feedback loop → Iterated draft → Typesetting & Layout → Proofreading → Publishing → Available
+    Idea → Concept → Writing → First draft {++→ Editing & Feedback loop →++} Iterated draft → Typesetting & Layout → Proofreading → Publishing → Available
 
 ### Volume V (Final volume)
 
